@@ -86,7 +86,7 @@
 </script> -->
 <script>
   var total = parseInt(document.getElementById("result").innerHTML = localStorage.getItem("textvalues"));
-    const grandTotal=total + 55;
+    const grandTotal=(total * 100)+ 55;
     document.getElementById("grandTotal").innerHTML = "₹ " + grandTotal;
     
     // Set the total amount to the hidden input field for Razorpay
